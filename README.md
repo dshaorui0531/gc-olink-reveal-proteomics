@@ -28,4 +28,9 @@ The analyses were performed in R using packages including `readxl`, `dplyr`, `ti
 
 ## Reuse note
 
-Before reuse, update the hard-coded local file paths in each script to match the location of the input NPX matrix, clinical metadata file and output directory on the target system.
+Before reuse, set the following environment variables or edit the corresponding defaults in the scripts:
+
+- `GC_OLINK_SUMMARY_DIR`: directory containing the Olink output summary files.
+- `GC_OLINK_CLINICAL_FILE`: clinical metadata workbook.
+- `GC_OLINK_RESULTS_DIR`: output directory for tables, figures, reports and cached public data.
+- `GC_OLINK_PROJECT_DIR`: project directory used by figure/document export helper scripts.
