@@ -12,8 +12,8 @@ from docx.shared import Inches, Pt
 
 
 ROOT = Path(__file__).resolve().parents[1]
-INPUT_DOCX = ROOT / "manuscript" / "clinical_translational_oncology_submission_with_figures_v1.docx"
-OUTPUT_DOCX = ROOT / "manuscript" / "clinical_translational_oncology_submission_with_figures_v2.docx"
+INPUT_DOCX = ROOT / "manuscript/clinical_translational_oncology_submission_with_figures_v1.docx"
+OUTPUT_DOCX = ROOT / "manuscript/clinical_translational_oncology_submission_with_figures_v2.docx"
 TABLE1_CSV = ROOT / "results/tables/table1_overall_clinical_characteristics.csv"
 
 
@@ -28,10 +28,10 @@ DATA_AVAILABILITY = (
 )
 
 CODE_AVAILABILITY = (
-    "The analysis code is provided as Supplementary Code 1, including scripts for primary "
-    "Olink analysis, clinical robustness analysis, TCGA-STAD support analysis and figure export. "
-    "The code excludes raw participant-level NPX and clinical data, which are subject to "
-    "institutional and patient-privacy restrictions."
+    "The analysis code is available at https://github.com/dshaorui0531/gc-olink-reveal-proteomics. "
+    "The repository includes scripts for primary Olink analysis, clinical robustness analysis, "
+    "TCGA-STAD support analysis and figure export. Raw participant-level NPX and clinical data "
+    "are not deposited because they are subject to institutional and patient-privacy restrictions."
 )
 
 AUTHOR_CONTRIBUTIONS = (
